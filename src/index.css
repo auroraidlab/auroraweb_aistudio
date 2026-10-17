@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", "Noto Serif KR", serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF9F5;
+    color: #22201E;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom editorial reading utilities */
+.font-display {
+  font-family: "Cormorant Garamond", "Noto Serif KR", serif;
+}
+
+.font-editorial {
+  font-family: "Noto Serif KR", "Cormorant Garamond", serif;
+}
+
+.font-sans-clean {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}

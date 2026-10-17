@@ -1,0 +1,6 @@
+{
+  "name": "AURORA SENSE ORDER",
+  "description": "Aurora ID Lab Archive & Practice | 보이지 않는 감각의 질서를 설계하는 공간 아틀리에",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
